@@ -1,0 +1,115 @@
+
+
+@media screen and (max-width:600px) {
+
+    /* responsive navbar */
+    .nav-links {
+        flex-direction: column;
+        background-color: rgba(236, 45, 45, 0.881);
+        align-items: center;
+        width: 100%;
+        row-gap: 20px;
+        padding-block: 20px;
+        position: absolute;
+        top: 60px;
+        border-top: 1px solid black;
+        left: -100%;
+
+    }
+
+    .navbar {
+        justify-content: space-between;
+
+    }
+
+    #hamberger {
+        display: block;
+    }
+
+   
+    
+
+    /* navbar finish */
+
+    .intro>.div {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+
+
+    .photos-box2 {
+        background-color: #f2f2fc;
+    }
+
+
+    #footer {
+        align-items: center;
+        text-align: center;
+        padding-inline: 33px;
+
+    }
+
+    input,
+    .btn-primary {
+        width: 60%;
+    }
+}
+
+
+
+@media screen and (max-width:750px) {
+    .nav-links {
+        flex-direction: column;
+        background-color: rgba(236, 45, 45, 0.881);
+        align-items: center;
+        width: 100%;
+        row-gap: 20px;
+        padding-block: 20px;
+        position: absolute;
+        top: 60px;
+        border-top: 1px solid black;
+        left: -100%;
+        z-index: 2;
+
+    }
+
+    .login {
+        display: none;
+        margin-right: 200px;
+    }
+
+    .signup {
+        margin-right: 100px;
+        border: 2px solid white;
+    }
+
+    .navbar {
+        justify-content: space-between;
+
+    }
+
+    #hamberger,
+    .display {
+        display: block;
+    }
+
+    .open {
+        transition: .2s all ease-in-out;
+        left: 0;
+    }
+
+    .form {
+        width: 350px;
+    }
+
+    .form-login {
+        padding-inline: 20px;
+    }
+
+    .form>img {
+        z-index: 1;
+    }
+
+}
+
