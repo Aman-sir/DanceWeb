@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dance++ Academy -The most popular Academy for Dance Champs</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <link rel="icon" href="/favicons/favicon.ico">
+</head>
+
+<body>
+    <nav class='flex-props-center navbar'>
+        <div id='logo' class="flex-props-center">
+            <img src='/images/c3.png' class='img'>
+            D++
+        </div>
+        <ul class="flex-props-center nav-links">
+            <li><a class="nav-link" href="/">Home</a></li>
+            <li><a class="nav-link" href="/gallary">Gallary</a></li>
+            <li><a class="nav-link" href="/class-info">Class Info</a></li>
+            <li><a class="nav-link" href="/contact">Contact</a></li>
+            <li><a class="nav-link" href="/faculty">Faculty</a></li>
+        </ul>
+        <a href="/login" class="login ">Login</a>
+        <i class="fa-solid fa-bars" id="hamberger"></i>
+
+    </nav>
+    <main>
+
+        <div class="flex-props-center form-login">
+            <form class="contact-form .flex-props-center form" method="Post" action="/signup">
+                <img src="/favicons/apple-touch-icon.png" alt="logo">
+                <input type="text" name="username" id="email" placeholder="Username" autocomplete="off">
+                <input type="password" name="password" id="password" placeholder="Password" autocomplete="off">
+                <button type="submit" class="btn-login">Create Account</button>
+            </form>
+        </div>
+
+    </main>
+
+    <%- include("footer") -%>

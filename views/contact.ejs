@@ -1,0 +1,17 @@
+<%- include("header") -%>
+    <main class="container">
+        <h1>Contact Us</h1>
+        <div>
+            <form action="/contact" method='post' class="flex contact-form">
+
+                <input type="text" name='name' placeholder='Your Name' class='name' autocomplete="off">
+                <input type="email" name='email' placeholder=' Your Mail ID' class='email' autocomplete="off">
+                <input type="phone" name='number' placeholder='Your Contact Number' class='number' autocomplete="off">
+                <input type="text" name='address' placeholder='Your  address' class='address' autocomplete="off">
+                <input type="text" name='goal' placeholder='Your Goal in details' class='goal' autocomplete="off">
+                <button class="btn-primary">Submit</button>
+            </form>
+        </div>
+    </main>
+
+    <%- include("footer") -%>
